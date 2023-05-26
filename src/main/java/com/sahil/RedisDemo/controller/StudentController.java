@@ -1,9 +1,9 @@
-package controller;
+package com.sahil.RedisDemo.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import service.StudentService;
+import com.sahil.RedisDemo.service.StudentService;
 
 @RestController
 @RequestMapping("/redis")

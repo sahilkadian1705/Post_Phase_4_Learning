@@ -1,4 +1,4 @@
-package entity;
+package com.sahil.RedisDemo.entity;
 
 import org.springframework.data.redis.core.RedisHash;
 import java.io.Serializable;

@@ -1,6 +1,6 @@
-package repository;
+package com.sahil.RedisDemo.repository;
 
-import entity.Student;
+import com.sahil.RedisDemo.entity.Student;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

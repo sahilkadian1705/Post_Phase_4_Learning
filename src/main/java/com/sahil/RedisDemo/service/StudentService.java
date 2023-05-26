@@ -1,10 +1,10 @@
-package service;
+package com.sahil.RedisDemo.service;
 
-import entity.Student;
+import com.sahil.RedisDemo.entity.Student;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
-import repository.StudentRepository;
+import com.sahil.RedisDemo.repository.StudentRepository;
 
 @Service
 public class StudentService{
